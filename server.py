@@ -4,7 +4,6 @@ from random import randint
 app = Flask(__name__)
 
 random_number = randint(0,9)
-print(random_number)
 
 
 @app.route('/')
